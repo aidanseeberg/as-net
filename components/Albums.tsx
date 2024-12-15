@@ -2,7 +2,6 @@ import { getAlbums } from "@/app/actions";
 import Link from "next/link";
 export default async function Albums() {
   const albums = await getAlbums();
-  console.log(albums);
   if (!albums) return;
   return (
     <div className="relative w-fit h-fit text-right">

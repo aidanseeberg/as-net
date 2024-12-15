@@ -22,7 +22,9 @@ export default function Home() {
         <div className={`text-xl flex w-full flex-col`}>
           <div className={`section hover:bg-blue`}>
             <h2 className={`section-heading`}>{"work"}</h2>
-            <p>software engineer for the Chicago Blackhawks</p>
+            <p className="text-end">
+              software engineer for the Chicago Blackhawks
+            </p>
           </div>
           <div className={`section hover:bg-orange`}>
             <h2 className={`section-heading`}>{"projects"}</h2>
