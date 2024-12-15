@@ -7,7 +7,7 @@ export default async function Albums() {
     <div className="relative w-fit h-fit text-right">
       <h3 className="mb-2">top albums of the week</h3>
 
-      <div className="w-[336px] h-36 relative bg-purple">
+      <div className="w-[336px] h-36 relative">
         {albums.toReversed().map((album, i) => (
           <div
             key={i}
