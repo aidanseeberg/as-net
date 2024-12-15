@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.body-padding {
+  @apply px-4 md:px-16 lg:px-32 xl:px-48;
+}
+
+.section {
+  @apply flex pt-2 body-padding transition-all min-h-16 h-fit w-full justify-between gap-2;
+}
+
+.section-heading {
+  @apply text-xl font-black;
+}
+
+a {
+  @apply underline underline-offset-2;
+}
+
+.album {
+  @apply w-36 h-36 shrink-0;
+}
