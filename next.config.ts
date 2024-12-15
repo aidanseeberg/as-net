@@ -6,8 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "lastfm.freetls.fastly.net",
-        pathname: "**",
+        hostname: "**",
       },
     ],
   },
