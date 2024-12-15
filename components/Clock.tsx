@@ -9,6 +9,5 @@ export default function Clock() {
     }, 1000);
     return () => clearInterval(interval);
   });
-  if (!window) return;
   return time && <p>{time}</p>;
 }
