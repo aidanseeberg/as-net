@@ -5,7 +5,8 @@ interface Album {
   url: string;
   "@attr": { rank: string };
   artist: {
-    "#text": string;
+    name: string;
+    url: string;
     mbid: string;
   };
   image: {
