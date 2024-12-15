@@ -1,5 +1,5 @@
 import { getAlbums } from "@/app/actions";
-
+import Image from "next/image";
 export default async function Albums() {
   const albums = await getAlbums();
   if (!albums) return;
@@ -14,7 +14,13 @@ export default async function Albums() {
             className="hover:z-20 w-fit h-fit absolute top-0"
             style={{ right: i * 48 }}
           >
-            <img alt="" className={`album`} src={album.image[2]["#text"]} />
+            <Image
+              alt=""
+              className={`album`}
+              width={144}
+              height={144}
+              src={album.image[2]["#text"]}
+            />
           </div>
         ))}
       </div>
