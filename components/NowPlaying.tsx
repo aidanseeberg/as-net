@@ -6,7 +6,11 @@ export default async function NowPlaying() {
     <div className="text-right">
       <h3 className="mb-2">now playing</h3>
 
-      <img className="album" src={track[0].image[2]["#text"]} />
+      <img
+        alt={track[0].name}
+        className="album"
+        src={track[0].image[2]["#text"]}
+      />
     </div>
   );
 }

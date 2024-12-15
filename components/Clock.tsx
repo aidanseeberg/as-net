@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 
 export default function Clock() {
-  if (!window) return;
   const [time, setTime] = useState(new Date(Date.now()).toLocaleTimeString());
   useEffect(() => {
     const interval = setInterval(() => {
@@ -10,5 +9,6 @@ export default function Clock() {
     }, 1000);
     return () => clearInterval(interval);
   });
+  if (!window) return;
   return time && <p>{time}</p>;
 }

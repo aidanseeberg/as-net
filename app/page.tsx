@@ -1,4 +1,4 @@
-import { cormorant, courier, prompt } from "./fonts";
+import { cormorant, courier } from "./fonts";
 import Albums from "@/components/Albums";
 import Clock from "@/components/Clock";
 import NowPlaying from "@/components/NowPlaying";

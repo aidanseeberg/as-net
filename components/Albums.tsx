@@ -14,7 +14,7 @@ export default async function Albums() {
             className="hover:z-20 w-fit h-fit absolute top-0"
             style={{ right: i * 48 }}
           >
-            <img className={`album`} src={album.image[2]["#text"]} />
+            <img alt="" className={`album`} src={album.image[2]["#text"]} />
           </div>
         ))}
       </div>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { cormorant, courier, playfair, prompt } from "./fonts";
+import { cormorant } from "./fonts";
 
 export const metadata: Metadata = {
   title: "aseebs.net",
