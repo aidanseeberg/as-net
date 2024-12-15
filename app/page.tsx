@@ -12,9 +12,9 @@ export default function Home() {
         <p>aseebs.net</p>
         <Clock />
       </div>
-      <div className={`${cormorant.className} py-16 lg:pt-32`}>
+      <div className={`${cormorant.className} py-8 md:py-16 lg:pt-32`}>
         <h1
-          className={`${cormorant.className} body-padding font-black text-6xl mb-8`}
+          className={`${cormorant.className} body-padding font-black text-4xl md:text-6xl mb-4 md:mb-8`}
         >
           Aidan Seeberg
         </h1>
