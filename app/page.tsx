@@ -3,6 +3,8 @@ import Albums from "@/components/Albums";
 import Clock from "@/components/Clock";
 import NowPlaying from "@/components/NowPlaying";
 
+export const revalidate = 60;
+
 export default function Home() {
   return (
     <main className="min-h-screen">
