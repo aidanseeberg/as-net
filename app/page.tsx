@@ -25,7 +25,7 @@ export default function Home() {
           <div className={`section hover:bg-blue`}>
             <h2 className={`section-heading`}>{"work"}</h2>
             <p className="text-end">
-              software engineer for the Chicago Blackhawks
+              software engineer for the Unicorn Auctions
             </p>
           </div>
           <div className={`section hover:bg-orange`}>
